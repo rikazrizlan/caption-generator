@@ -9,6 +9,14 @@ fetch("https://type.fit/api/quotes")
     document.querySelector("h6").innerText = data[randomNumber].author;
 });
 
+const modeBtn = document.querySelector(".fa-adjust");
+
+modeBtn.addEventListener("click", () => {
+  document.querySelector(".container").classList.toggle("body-dark");
+  modeBtn.classList.toggle("btn-light");
+  document.querySelector(".dev a").classList.toggle("link-dark");
+})
+
 
 
 
