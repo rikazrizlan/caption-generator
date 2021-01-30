@@ -23,6 +23,7 @@ body {
     padding: 10px;
     border-radius: 50%;
     right: 15px;
+    cursor: pointer;
 }
 
 .fa-copy {
@@ -30,6 +31,7 @@ body {
     padding: 6px 10px;
     font-size: 20px;
     border-radius: 8px;
+    border: 1px solid white;
 }
 
 .btn-dark {
@@ -57,7 +59,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid black;
+    border: 2px solid white;
     padding: 1rem 20px;
     border-radius: 10px;
 }
@@ -77,9 +79,15 @@ h6 {
     padding: 10px;
     border: none;
     border-radius: 8px;
-    background-color: tomato;
+    background-color: rgb(228, 77, 77);
     color: white;
     cursor: pointer;
+}
+
+.caption-btn:hover {
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.5s ease;
 }
 
 .dev {
