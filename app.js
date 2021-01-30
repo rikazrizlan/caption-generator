@@ -13,7 +13,7 @@ const modeBtn = document.querySelector(".fa-adjust");
 
 modeBtn.addEventListener("click", () => {
   document.querySelector(".container").classList.toggle("body-dark");
-  modeBtn.classList.toggle("btn-light");
+  modeBtn.classList.toggle("btn-dark");
   document.querySelector(".dev a").classList.toggle("link-dark");
 })
 
