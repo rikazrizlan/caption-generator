@@ -16,10 +16,15 @@
     <i class="fas fa-adjust"></i>
     <div class="container">
         <div class="quote-here">
-            <p>cooking...</p>
-            <h6></h6>
+            <p id="quote">cooking...</p>
+            <h6 id="author"></h6>
             <form> 
                 <button class="caption-btn" type="submit">Get a Caption</button>
+                <div class="tooltip">
+                    <i  onclick="copyElementText()" class="fas fa-copy">
+                        <span class="tooltiptext" id="myTooltip">Copy Caption</span>
+                    </i>
+                </div>
             </form>
         </div>
         <h6  class="dev" >Developed by <a href="https://twitter.com/itsjustrikaz">@itsjustrikaz</a></h6>
